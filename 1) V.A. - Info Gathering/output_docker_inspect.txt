@@ -1,0 +1,219 @@
+[
+    {
+        "Id": "7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08",
+        "Created": "2024-09-18T09:04:08.240048842Z",
+        "Path": "/nodejs/bin/node",
+        "Args": [
+            "/juice-shop/build/app.js"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 2305,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-09-18T09:04:09.283813441Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:520e3f10057c57a8b3dc0651ab5e9f8601938fc07f7112e397b3b92f4904f2b1",
+        "ResolvConfPath": "/var/lib/docker/containers/7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08/hostname",
+        "HostsPath": "/var/lib/docker/containers/7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08/hosts",
+        "LogPath": "/var/lib/docker/containers/7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08/7eb2d0818334487078e631e6a6b35d2162008ae8e66da44c8e74d49956969d08-json.log",
+        "Name": "/amazing_elgamal",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/ba8cf56bf1ffdc3310fc6ed21359992d2fa0be87dc803f6e42c4043edeb11d2f-init/diff:/var/lib/docker/overlay2/5115e68791873dbd5313373dbc85c349a0b0eefda2e4447d5130d5d509d94d64/diff:/var/lib/docker/overlay2/3cad7b271e075343a3b020605730e565dbdf493e65b3c6c6b4affb7b3996c4e9/diff:/var/lib/docker/overlay2/0909a5d73b7c6ec62b1dd257ef2656224c5e2df2529c3aa6694347b4b71ebb1e/diff:/var/lib/docker/overlay2/32791554c1602f15f149c6fdb8e04d344183fc2ad57e6fab9f62f735346aab01/diff:/var/lib/docker/overlay2/4202170b5a8462f0cb5695b6286666c71a8f504053a14a365d1de12e24c0848d/diff:/var/lib/docker/overlay2/36313a9ecfd38ad245f8f50c4cf4fe544cb1adb5761008cd5f482ece43faa1b1/diff:/var/lib/docker/overlay2/5e62d4d6ac6849aa67b76c8b5772a1eb0424d550be482f70839efa76c3591d27/diff:/var/lib/docker/overlay2/01b9f1082e13baa1b38eb1e184877052c7101ef81b62af675d1f7bb60f77f80e/diff:/var/lib/docker/overlay2/c83763d3e75a1c2e4f73e1928e9688a65b428a16a8465a82b08831ffc92bbc02/diff:/var/lib/docker/overlay2/77bf3503d36e6b5319eeefe65eefcb5fc0a3378d6ce60fb0ac01597d77fa8398/diff:/var/lib/docker/overlay2/5ab90f61295901f85efc9ddfd0c9b4137b55de98ed059a450b4b685e1790c43b/diff:/var/lib/docker/overlay2/70967b1c947370be4c99aa3793176a990c30d37164dfc6ad73274b89658ea5fe/diff:/var/lib/docker/overlay2/1472cdd519299a6dbe7967febe6e61bccc8e5e2155f59372c0f97737ccadd272/diff:/var/lib/docker/overlay2/e8da59e8de5e97632ff2f719a34e0eb90d057929e5c95b91cce496713b4e0593/diff:/var/lib/docker/overlay2/bc164ed9e013f1ea3383489e3e6010bca3fca35235436c45f50b1a8f52b2a00f/diff:/var/lib/docker/overlay2/f0aed811461f1a8c21d8dca5d27c91a24ec43460d57baa263e495df06ec00cf4/diff:/var/lib/docker/overlay2/a2d85f12e89b77e76c037659b1b7e720d31138c9363c37e8b67324343be42f40/diff:/var/lib/docker/overlay2/fdea8d4dd8dcba7bfc1bd4a8c7eea2505a2ea0d7d9659e42f293d660f4046bcc/diff:/var/lib/docker/overlay2/c3e19ac36ab9737ff33e6ce61b8e2168b335da9cca34fbd3de8fd5e9e97afbe8/diff:/var/lib/docker/overlay2/c3b0d869427b61117fd73ab1468713882bdd1f01692304371fa20c397080505b/diff:/var/lib/docker/overlay2/7db29cb0e362a0a3196946985cda9366c4cad593b8c7dce6e3b47ad64ae47964/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ba8cf56bf1ffdc3310fc6ed21359992d2fa0be87dc803f6e42c4043edeb11d2f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ba8cf56bf1ffdc3310fc6ed21359992d2fa0be87dc803f6e42c4043edeb11d2f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ba8cf56bf1ffdc3310fc6ed21359992d2fa0be87dc803f6e42c4043edeb11d2f/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "7eb2d0818334",
+            "Domainname": "",
+            "User": "65532",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+            ],
+            "Cmd": [
+                "/juice-shop/build/app.js"
+            ],
+            "Image": "bkimminich/juice-shop",
+            "Volumes": null,
+            "WorkingDir": "/juice-shop",
+            "Entrypoint": [
+                "/nodejs/bin/node"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "Bjoern Kimminich <bjoern.kimminich@owasp.org>",
+                "org.opencontainers.image.authors": "Bjoern Kimminich <bjoern.kimminich@owasp.org>",
+                "org.opencontainers.image.created": "”2024-09-09T15:59:52Z”",
+                "org.opencontainers.image.description": "Probably the most modern and sophisticated insecure web application",
+                "org.opencontainers.image.documentation": "https://help.owasp-juice.shop",
+                "org.opencontainers.image.licenses": "MIT",
+                "org.opencontainers.image.revision": "39b4686",
+                "org.opencontainers.image.source": "https://github.com/juice-shop/juice-shop",
+                "org.opencontainers.image.title": "OWASP Juice Shop",
+                "org.opencontainers.image.url": "https://owasp-juice.shop",
+                "org.opencontainers.image.vendor": "Open Worldwide Application Security Project",
+                "org.opencontainers.image.version": "17.1.1"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "45b709772a66465d634a8fdeaefbdc11c316d46a01a81b65da24360455e999c1",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "3000/tcp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/45b709772a66",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "de63a77e45a0c34e28e086e92d9039e943fef241efc787d86b8ac19da756d1e6",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "a5fe618271a1e9f803adfea2ce6d41afdde80ca88bcb6c936e031a763be9d1a2",
+                    "EndpointID": "de63a77e45a0c34e28e086e92d9039e943fef241efc787d86b8ac19da756d1e6",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]

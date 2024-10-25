@@ -1,0 +1,30 @@
+dirb http://172.17.0.2:3000
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sun Sep 22 17:18:47 2024
+URL_BASE: http://172.17.0.2:3000/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://172.17.0.2:3000/ ----
++ http://172.17.0.2:3000/assets (CODE:301|SIZE:179)                                                                                                                                                                                        
++ http://172.17.0.2:3000/ftp (CODE:200|SIZE:11054)                                                                                                                                                                                         
++ http://172.17.0.2:3000/profile (CODE:500|SIZE:1154)                                                                                                                                                                                      
++ http://172.17.0.2:3000/promotion (CODE:200|SIZE:6586)                                                                                                                                                                                    
++ http://172.17.0.2:3000/redirect (CODE:500|SIZE:3119)                                                                                                                                                                                     
++ http://172.17.0.2:3000/robots.txt (CODE:200|SIZE:28)                                                                                                                                                                                     
++ http://172.17.0.2:3000/snippets (CODE:200|SIZE:792)                                                                                                                                                                                      
++ http://172.17.0.2:3000/video (CODE:200|SIZE:10075518)                                                                                                                                                                                    
++ http://172.17.0.2:3000/Video (CODE:200|SIZE:10075518)                                                                                                                                                                                    
+                                                                                                                                                                                                                                           
+-----------------
+END_TIME: Sun Sep 22 17:19:30 2024
+DOWNLOADED: 4612 - FOUND: 9
+

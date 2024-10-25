@@ -1,0 +1,38 @@
+[+] FireWall Detector
+[++] Firewall not detected
+
+[+] Detecting Joomla Version
+[++] ver 404
+
+
+[+] Core Joomla Vulnerability
+[++] Target Joomla core is not vulnerable
+
+[+] Checking apache info/status files
+[++] Readable info/status files are not found
+
+[+] admin finder
+[++] Admin page : http://172.17.0.2:3000/administration/
+
+[+] Checking robots.txt existing
+[++] robots.txt is found
+path : http://172.17.0.2:3000/robots.txt 
+
+Interesting path found from robots.txt
+http://172.17.0.2:3000/ftp
+
+
+[+] Finding common backup files name
+[++] Backup files are not found
+
+[+] Finding common log files name
+[++] security.txt path :  http://172.17.0.2:3000/security.txt
+
+[++] .well-known/security.txt path :  http://172.17.0.2:3000/.well-known/security.txt
+
+
+[+] Checking sensitive config.php.x file
+[++] Readable config files are not found                                                                                                                                                                                                   
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                           
+Your Report : reports/172.17.0.2:3000/  
