@@ -1,9 +1,0 @@
-GET /f%E0%2F%C00V/ HTTP/1.1
-Host: 172.17.0.2:3000
-Accept-Encoding: gzip
-Connection: keep-alive
-User-Agent: Mozilla/5.0 SF/2.10b
-Range: bytes=0-399999
-Referer: http://172.17.0.2/
-Authorization: Basic YWJjZEBhYmMuY29tOjEyMzRhYmNk
-
